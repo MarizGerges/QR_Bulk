@@ -1,0 +1,11 @@
+body{
+   background-color:  #2692D3;
+}
+*{
+   margin: 0px;
+   padding: 0px;
+}
+.clear-fix
+{
+   clear: both;
+}

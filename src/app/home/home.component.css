@@ -1,0 +1,19 @@
+.leftSide{
+    height: 100%;
+    overflow: hidden;
+}
+.imgQR{
+    width: 700px;}
+
+h1{
+    font-size: 50px;;
+}
+.CreateBtn{
+    background-color: #02223c;
+    width: 70%;
+    padding: 10px;
+    
+}
+.CreateBtn:hover{
+    background-color: #0a4995;
+}

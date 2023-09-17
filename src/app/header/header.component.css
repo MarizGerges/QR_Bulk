@@ -1,0 +1,25 @@
+.navbar-brand{
+    font-size: 30px;
+}
+.navbar{
+background: #02223c;
+position: sticky;
+top: 0;
+left: 0;
+right: 0;
+}
+.nav-link{
+    background: #2692D3;
+}
+.nav-link:hover{
+    background: #1f75ab;
+}
+.navbar-brand:hover{
+  color: #2692D3 !important;
+}
+.navbar-toggler{
+    background-color: #22a2f2cd;
+}
+.navbar-toggler:hover{
+    background-color: #227eb8cd;
+}

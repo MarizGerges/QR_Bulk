@@ -1,0 +1,201 @@
+.sec6 .card{
+    background-color:#F1F1F1;
+    width: 70%;
+    height: 300px;
+    margin: auto;
+    margin-bottom: 100px;
+    margin-top: 150px;
+    overflow: hidden;
+    position: relative;
+    border-radius: 10px;
+    border: 0px;
+}
+.card-contant{
+    background-color: rgb(162, 223, 239);
+    width: 300px;
+    height: 230px;
+    transform: skew(-55deg) ;
+    position: absolute;
+    top: 0px;
+    left: -200px;
+    opacity: 1;
+    z-index: 0;
+}
+.card-contant2{
+    background-color:  rgb(162, 223, 239);
+    width: 310px;
+    height: 230px;
+    transform: skew(310deg) ;
+    position: absolute;
+    bottom: 0px;
+    right: -200px;
+    opacity: 1;
+    z-index: 0;
+}
+.sec6 .content{
+    position: absolute;
+    top: 50px;
+    left: 290px;
+    display: inline-block;
+    box-sizing: border-box;
+    padding: 10px;
+    width: 650px;
+}
+
+.card img
+{
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    position: absolute;
+    top: 40px;
+    left: 50px;
+    z-index: 1;
+}
+label{
+    font-size: x-large;
+    font-weight: 600;
+}
+input{
+    font-size: larger;
+
+}
+.sec6 {
+    width: 80%;
+    margin: auto;
+}
+
+@media screen and (min-width:400px) and (max-width:768px){
+    .card img
+    {
+        width: 100px;
+        height: 100px;
+        top: 30px;
+        left: 120px;
+       
+    }
+    .card{
+        width: 350px !important;
+        height: 350px !important;
+    }
+    .sec6 .content{
+      
+        top: 120px!important;
+        left: 60px;
+        
+    }
+    .card-contant{
+        
+        width: 300px;
+        height: 240px;
+        transform: skew(-55deg) ;
+        position: absolute;
+        top: 0px;
+        left: -300px;
+       
+    }
+    .card-contant2{
+        
+        width: 300px;
+        height: 240px;
+        transform: skew(-55deg) ;
+        position: absolute;
+        bottom: 0px;
+        right: -300px;
+    }
+    label{
+        font-size: large;
+        font-weight: 600;
+    }
+    input{
+        font-size: large;
+    }
+}
+@media screen and (min-width:769px) and (max-width:992px){
+    .card img
+    {
+        width: 120px;
+        height: 120px;
+        top: 50px;
+        left: 160px;
+    }
+    .card{
+        height: 450px !important;
+        width: 450px !important;
+    }
+    
+    .sec6 .content{
+      
+        top: 160px!important;
+        left: 25%;
+        
+    }
+    .card-contant{
+        
+        width: 300px;
+        height: 300px;
+        transform: skew(-55deg) ;
+        left: -300px;
+       
+    }
+    .card-contant2{
+        
+        width: 300px;
+        height: 300px;
+        transform: skew(-55deg) ;
+        position: absolute;
+        right: -300px;
+    }
+    label{
+        font-size: large;
+        font-weight: 600;
+    }
+    input{
+        font-size: large;
+    }
+
+
+    /*xl*/
+@media screen and (min-width:993px) and (max-width:1200px){
+    
+    .card img
+    {
+        width: 120px;
+        height: 120px;
+        top: 20px;
+        left: 160px;
+       
+    }
+    .sec6 .content{
+      
+        top: 160px!important;
+        left: 25%;
+        background: #000;
+        
+    }
+    .card-contant{
+        
+        width: 300px;
+        height: 300px;
+        transform: skew(-55deg) ;
+        left: -300px;
+       
+    }
+    .card-contant2{
+        
+        width: 300px;
+        height: 300px;
+        transform: skew(-55deg) ;
+        position: absolute;
+        right: -300px;
+    }
+}
+}
+
+/*xxl*/
+@media screen and (max-width:1201px){
+    .sec6 .content{
+        position: absolute;
+        
+    }
+}

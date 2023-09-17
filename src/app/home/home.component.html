@@ -1,0 +1,43 @@
+<div class="container vh-100  d-flex align-items-center  ">
+    <div class="row  ">
+        <div class="col-lg-6 ">
+         <div class="leftSide d-flex align-items-center  ">
+            <div class="m-5  ">
+            <h1 class="text-white ">QR CODE <br> GENERATOR</h1>
+            <br>
+            <br>
+            <button type="button" class="btn btn-primary CreateBtn" data-bs-toggle="modal" data-bs-target="#exampleModal">Create QR Codes </button>
+            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h1 class="modal-title fs-5 " id="exampleModalLabel">Upload Your Excel sheet</h1>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <form >
+                                <div class="row mb-3">
+                                    <label for="colFormLabel" class="col-sm-4 col-form-label">Excel sheet</label>
+                                    <div class="col-sm-8">
+                                        <input type="file" class="form-control " id="colFormLabel" #fileInput
+                                            accept=".xlsx, .xls"  
+                                            placeholder="col-form-label">
+                                    </div>
+                                </div>
+                                <div *ngIf="fileError" class="error-message alert alert-danger text-center ">{{ fileErrorMessage }}</div>
+                                <div *ngIf="fileSucces" class="error-message alert alert-success  text-center ">{{ fileMessage }}</div>
+                                <button type="button" class="btn btn-primary col-12 " (click)="submitForm()">Submit</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+         </div>
+        </div>
+        <div class="col-lg-6 ">
+        <img src="../../assets/imgs/qr-code-concept-vector-11900814.jpg" class="imgQR w-100  ">
+        </div>
+    </div>
+</div>
