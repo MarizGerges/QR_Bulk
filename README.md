@@ -1,1 +1,1 @@
-# QR_Bulk_generator
+# QR_Bulk
